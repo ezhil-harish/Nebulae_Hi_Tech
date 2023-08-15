@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nebulae-hi-tech</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="top">
+		<div class="logo">
+			<h1>Nebulae Hi Tech</h1>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#main">Main</a></li>
+				<li><a href="#register">Register</a></li>
+				<li><a href="#exit">Exit</a></li>
+			</ul>
+		</div>
+		<div class="tool">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+		</div>
+	</div>
+	<div class="home" id="home">
+		<div class="content">
+			<h1>Pharmacy</h1>
+			<p>Best pharmacy lab in Tamil Nadu</p>
+		</div>
+		<div class="content-img">
+			<img src="lab.jpg">
+		</div>
+	</div>
+	<div class="main" id="main">
+		<div class="content">
+			<p>Best pharmacy lab in Tamil Nadu. no content has been find so anything i will text dont mind it </p>
+		</div>
+		<div class="content-img">
+			<img src="lab1.jpg" class="lab-img">
+		</div>
+	</div>
+	<div class="register" id="register">
+		<div class="right">
+			<h1>Details</h1>
+			<input type="text" placeholder="Username">
+			<input type="number" placeholder="age">
+			<input type="text" placeholder="Purpose">
+			<button>Submit</button>
+		</div>
+		<div class="left">
+			<img src="map.jpg">
+		</div>
+	</div>
+	<div class="exit" id="exit">
+		<div class="container">
+			<div class="last">
+				<h2>Nebulae Hi Tech</h2>
+				<span>Chennai</span>
+			</div>
+		</div>
+		<div class="container">
+			<div class="last">
+				<h2>Service</h2>
+				<span>Delivery</span>
+				<span>Pricing</span>
+				<span>Fast food</span>
+				<span>Reserve your spot</span>
+		    </div>
+		</div>
+		<div class="container">
+			<div class="last">
+				<h2>Info</h2>
+				<span>Event</span>
+				<span>Contact</span>
+				<span>Privacy</span>
+				<span>Terms of service</span>
+		    </div>
+		</div>
+		<div class="container">
+			<div class="last">
+				<h2>Address</h2>
+				<span>Nebulae Hi Tech</span>
+				<span>India-Chennai</span>
+				<span>9840653223</span>
+		    </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		const touch=document.querySelector('.tool');
+		const mav=document.querySelector('.nav');
+
+		touch.addEventListener('click', ()=>{
+			mav.classList.toggle('slide');
+		});
+	</script>
+</body>
+</html>
